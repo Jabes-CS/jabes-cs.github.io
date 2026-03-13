@@ -45,11 +45,6 @@
   .hero-title .line2 { display: block; background: linear-gradient(135deg, var(--accent) 0%, var(--accent2) 50%, var(--accent3) 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
   .hero-desc { max-width: 520px; font-size: 17px; line-height: 1.7; color: var(--muted); margin-bottom: 48px; opacity: 0; animation: fadeUp 0.7s ease 0.5s forwards; }
   .hero-desc strong { color: var(--text); font-weight: 400; }
-  .hero-ctas { display: flex; gap: 16px; flex-wrap: wrap; opacity: 0; animation: fadeUp 0.7s ease 0.65s forwards; }
-  .btn-primary { padding: 14px 32px; background: var(--accent); color: var(--bg); font-family: 'Syne', sans-serif; font-weight: 700; font-size: 14px; letter-spacing: 0.05em; border: none; text-decoration: none; clip-path: polygon(0 0, calc(100% - 12px) 0, 100% 12px, 100% 100%, 12px 100%, 0 calc(100% - 12px)); transition: opacity 0.2s, transform 0.2s; display: inline-block; }
-  .btn-primary:hover { opacity: 0.85; transform: translateY(-2px); }
-  .btn-secondary { padding: 14px 32px; background: transparent; color: var(--text); font-family: 'Syne', sans-serif; font-weight: 700; font-size: 14px; letter-spacing: 0.05em; border: 1px solid var(--border); text-decoration: none; clip-path: polygon(0 0, calc(100% - 12px) 0, 100% 12px, 100% 100%, 12px 100%, 0 calc(100% - 12px)); transition: border-color 0.2s, transform 0.2s, background 0.2s; display: inline-block; }
-  .btn-secondary:hover { border-color: var(--accent); background: var(--glow); transform: translateY(-2px); }
   .hero-scroll { position: absolute; bottom: 40px; left: 48px; font-family: 'DM Mono', monospace; font-size: 11px; color: var(--muted); letter-spacing: 0.15em; text-transform: uppercase; display: flex; align-items: center; gap: 12px; opacity: 0; animation: fadeUp 0.7s ease 0.9s forwards; }
   .scroll-line { width: 60px; height: 1px; background: linear-gradient(90deg, var(--accent), transparent); animation: pulse-line 2s ease infinite; }
 
@@ -216,10 +211,6 @@
   <p class="hero-tag">// <span>disponível para oportunidades</span></p>
   <h1 class="hero-title">Jabes<br><span class="line2">Candido</span></h1>
   <p class="hero-desc">Estudante de <strong>Sistemas de Informação</strong> com foco em <strong>análise de dados</strong> e <strong>automação financeira</strong>. Apaixonado por transformar dados em decisões estratégicas com Python, SQL e BI.</p>
-  <div class="hero-ctas">
-    <a href="#projetos" class="btn-primary">Ver projetos</a>
-    <a href="#contato" class="btn-secondary">Entrar em contato</a>
-  </div>
   <div class="hero-scroll"><span class="scroll-line"></span>scroll para explorar</div>
 </section>
 
